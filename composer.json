@@ -1,0 +1,23 @@
+{
+  "name": "santanu/lumen-mysql-oauth",
+  "description": "OAuth API Authorization based on Lumen Framework and MySQL",
+  "keywords": ["lumen", "oauth2", "mysql"],
+
+  "authors": [
+    {
+      "name": "Santanu Brahma"
+    }
+  ],
+  "license" : "MIT",
+  "require" : {
+    "bshaffer/oauth2-server-php": "~1.8"
+  },
+  "require-dev": {
+    "laravel/lumen-framework": "5.2.*"
+  },
+  "autoload": {
+    "psr-4": { "Santanu\\Lumen_Oauth\\": "src" }
+  },
+  "version":  "1.0.0",
+  "minimum-stability": "dev"
+}
