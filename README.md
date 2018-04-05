@@ -30,7 +30,7 @@ $app->group(['prefix' => 'oauth'], function() use ($app)
 ```
 - In routes add 'oauth' as a middleware in service routes.
 - In oauth.php config file in src/config add the following
-```
+```php
 	'expiry_time' => xxx, //time for the access toke to expire
     'refresh_time' => xxx, //time for the access toke to expire
 ```
